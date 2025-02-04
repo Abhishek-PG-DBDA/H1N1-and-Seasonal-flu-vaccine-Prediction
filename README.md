@@ -27,12 +27,12 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
   
 2. General Description
 
-   2.1 Product-Based
+  2.1 Product-Based
 
      These predictive models can be integrated into broader treatment planning strategies to help decision
      makers effectively allocate vaccine resources and understand which organizations are at risk.
 
-   2.2 Product Features
+  2.2 Product Features
 
      a. Data Collection:
         Collect demographic information (age, gender, location).
@@ -55,7 +55,7 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
         Provide predictions in customer dashboards.
         Enable API integration for healthcare systems.
      
-   2.3 User Features
+  2.3 User Features
 
      a. Physician: Learn about the key organizations involved in immunization.
 
@@ -63,9 +63,9 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
 
      c. Data Analyst: Review output predictions and improve parameters.
      
-4. Special Requirements
+3. Special Requirements
 
-   3.1 External Interface Required
+  3.1 External Interface Required
 
      a. User Interface: Dynamic dashboard displaying vaccine trends and forecasts.
 
@@ -73,7 +73,7 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
 
      c. Software Interface: Integrates with existing EHR (Electronic Health Record) systems.
 
-   3.2 Operational Conditions
+  3.2 Operational Conditions
 
      a. Data Collection: Data was collected from electronic health records and public health records. Regular
        updates are possible through API integration.
@@ -87,7 +87,7 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
      d. Comments: Provide clear graphs showing vaccination rates by demographic group. Provide regional
        competition and evaluate reliability metrics.
    
-   3.3 Design Constraints
+  3.3 Design Constraints
 
      a. Scalability: Need to manage indefinite data growth during the next flu season.
 
@@ -95,16 +95,14 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
 
      c. Security: Comply with health information privacy regulations such as HIPAA.
       
-6. Establish boundaries
+4. Establish boundaries
       
-     4.1 A high-performance system must process large amounts of data within a reasonable amount of time to
-       make immediate decisions.
+     - A high-performance system must process large amounts of data within a reasonable amount of time to
+     make immediate decisions.
+     - Scalability Expand the program to new groups and geographies as needed.
+     - Security We use access controls and data protection to protect patient privacy.
 
-     4.2 Scalability Expand the program to new groups and geographies as needed.
-
-     4.3 Security We use access controls and data protection to protect patient privacy.
-
-8. Additional Information
+5. Additional Information
 
      - Accuracy: The estimated accuracy level for vaccination coverage should be greater than 90%.
      
@@ -114,7 +112,7 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
      
      - F1 Score: Balances recall and precision for best results.
 
-10. Testing and Certification
+6. Testing and Certification
      
      - Block Evaluation: Identify individual locations (e.g., prediction models, purchasing processes).
      
@@ -124,7 +122,7 @@ Goal is to predict how likely individuals are to receive their H1N1 and Seasonal
      
      - User Acceptance Testing (UAT): Test accuracy and usability with clinicians.
 
-11. Results
+7. Results
      
      - Prediction Model: The model is trained to predict seasonal and H1N1 flu vaccines.
      
